@@ -1,0 +1,77 @@
+.NMPage {
+    height: 100vh;
+    background-image: linear-gradient(135deg, black, rgb(8, 8, 26) 30%, rgb(4, 4, 27));
+    // background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=360");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+h1 {
+    padding: 0vw;
+    margin: 0vw;
+}
+
+.heading {
+    padding-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2vw;
+    text-align: center;
+    img {
+        width: 50vh;
+    }
+}
+
+.descGifGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    img {
+        width: 50vw;
+        height: 60vh;
+    }
+    .desc {
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+    
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+    .descGifGrid .desc{
+        width: 90%;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: small;
+        
+    }
+    .descGifGrid img{
+            height: 40vh;
+        }
+    .descGifGrid{
+        justify-content: center;
+    }
+    .heading{
+        font-size: large;
+    }
+}
