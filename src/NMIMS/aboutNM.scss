@@ -1,5 +1,5 @@
 .NMPage {
-    height: 100vh;
+    // height: 100vh;
     background-image: linear-gradient(135deg, black, rgb(8, 8, 26) 30%, rgb(4, 4, 27));
     // background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=360");
     background-repeat: no-repeat;
@@ -57,6 +57,7 @@ h1 {
 }
 
 @media screen and (max-width: 479px) {
+    
 /* start of phone styles */
     .descGifGrid .desc{
         width: 90%;
@@ -72,6 +73,11 @@ h1 {
         justify-content: center;
     }
     .heading{
-        font-size: large;
+        h1{
+            font-size: large;
+        }
+        img{
+            width: 35vw;
+        }
     }
 }

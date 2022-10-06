@@ -1,39 +1,39 @@
-.homepage{
+.homepage {
     // background-image: linear-gradient(135deg, black, rgb(9, 8, 57) 30%, rgb(4, 4, 27));
     background-image: url("./images/bgImg1.webp");
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    img{
+    img {
         margin: 1vw;
+        max-width: 90vw;
     }
     background-attachment: fixed;
     background-position: center;
 }
 
-.turingLogo{
+.turingLogo {
     width: 50vh;
 }
 
 @media screen and (max-width: 991px) {
-/* start of large tablet styles */
-
+    /* start of large tablet styles */
 }
 
 @media screen and (max-width: 767px) {
-/* start of medium tablet styles */
-    .homepage img{
+    /* start of medium tablet styles */
+    .homepage img {
         width: 60%;
     }
 }
 
 @media screen and (max-width: 479px) {
-/* start of phone styles */
-    .homepage img{
+    /* start of phone styles */
+    .homepage img {
         width: 80%;
     }
 }
