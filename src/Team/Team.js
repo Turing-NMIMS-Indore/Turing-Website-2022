@@ -1,5 +1,5 @@
 import "./Team.scss";
-
+import Varnika from "./images/Varnika.webp"
 export default function Team() {
     return (
         <div className="teamPage">
@@ -8,7 +8,7 @@ export default function Team() {
             <div className="membersSection">
                 <div className="member">
                     {/* <img src={require("./images/Varnika.webp")} type="webp" /> */}
-                    <img src="./images/Varnika.webp" type="webp" />
+                    <img src={Varnika} type="webp" />
                     Varnika Singh
                     <br />
                     <div className="memberPost">Core Team</div>
