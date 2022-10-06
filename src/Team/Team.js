@@ -7,7 +7,8 @@ export default function Team() {
 
             <div className="membersSection">
                 <div className="member">
-                    <img src={require("./images/Varnika.webp")} type="webp" />
+                    {/* <img src={require("./images/Varnika.webp")} type="webp" /> */}
+                    <img src="./images/Varnika.webp" type="webp" />
                     Varnika Singh
                     <br />
                     <div className="memberPost">Core Team</div>
