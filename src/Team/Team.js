@@ -7,7 +7,7 @@ export default function Team() {
             <div className="membersSection">
                 <div className="member">
                     <img
-                        src="/images/Varnika.webp"
+                        src="src\Team\images\Varnika.webp"
                         type="webp"
                     />
                     Varnika Singh
